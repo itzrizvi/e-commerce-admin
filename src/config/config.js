@@ -1,0 +1,35 @@
+import { theme, darkTheme } from './theme/themeVariables';
+
+const config = {
+  darkMode: false,
+  DECIMAL_DIGIT: 2,
+  CURRENCY_SYMBOL: "$",
+  topMenu: false,
+  rtl: false,
+  theme,
+  darkTheme,
+  ROLES_PER_PAGE: 10,
+  PERMISSIONS_PER_PAGE: 10,
+  USERS_PER_PAGE: 10,
+  CATEGORY_PER_PAGE: 10,
+  CUSTOMER_GROUPS_PER_PAGE: 10,
+  COUPON_GROUPS_PER_PAGE: 10,
+  PRODUCTS_PER_PAGE: 10,
+  PRODUCT_CONDITION_PER_PAGE: 10,
+  PRODUCT_AVAILABILITY_STATUS_PER_PAGE: 10,
+  BANNER_PER_PAGE: 10,
+  BRAND_PER_PAGE: 10,
+  CUSTOMER_PER_PAGE: 10,
+  VENDOR_PER_PAGE: 10,
+  ORDER_PER_PAGE: 10,
+  PO_PER_PAGE: 10,
+  QUOTE_PER_PAGE: 10,
+  CONTACT_US_MESSAGE_PER_PAGE: 10,
+  EMAIL_TEMPLATE_PER_PAGE: 10,
+  ADMIN_DOC_BUCKET_NAME: "psp-admin-doc",
+  INPUT_HEIGHT: 36,
+  TEXTARIA_HEIGHT: 45,
+  TITLE_LEVEL: 5,
+};
+
+export default config;
